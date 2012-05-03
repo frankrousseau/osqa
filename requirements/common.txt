@@ -1,0 +1,7 @@
+python-mysqldb
+South django
+django-debug-toolbar
+markdown
+html5lib
+python-openi
+
