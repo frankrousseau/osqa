@@ -6,7 +6,7 @@ from static import RENDER_CHOICES
 
 SIDEBAR_SET = SettingSet('sidebar', 'Sidebar content', "Enter contents to display in the sidebar. You can use markdown and some basic html tags.", 10, True)
 
-SHOW_WELCOME_BOX = Setting('SHOW_WELCOME_BOX', True, SIDEBAR_SET, dict(
+SHOW_WELCOME_BOX = Setting('SHOW_WELCOME_BOX', False, SIDEBAR_SET, dict(
 label = _("Show the Welcome box"),
 help_text = _("Do you want to show the welcome box when a user first visits your site."),
 required=False))
