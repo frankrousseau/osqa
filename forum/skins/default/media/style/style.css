@@ -1944,3 +1944,43 @@ div.wmd-button {
 div.wmd-button-bar {
     float:left;
 }
+
+/* Custom styles */
+
+/* hide right column */
+div#CARight {
+    display:none;
+}
+
+/* Make leftcolumn bigger*/
+div#CALeft {
+    width:960px; 
+}
+.short-summary {
+    width:960px; 
+}
+.short-summary
+.question-summary-wrapper { 
+    width:785px; 
+}
+
+/* Hide user and badges tab */
+
+#nav a#nav_users {
+    display:none;
+}
+#nav a#nav_badges {
+    display:none;
+}
+
+/* Hide paginator */
+.paginator {
+    display:none;
+}
+
+/* Emphasize ask a question button */
+#nav a#nav_ask {
+    font-size: 22px;
+    color: white;
+    background-color: #3A5;
+}
